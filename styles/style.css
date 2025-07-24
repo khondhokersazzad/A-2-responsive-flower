@@ -20,3 +20,53 @@
   font-optical-sizing: auto;
   
 }
+
+/* Universal Style  */
+.d-flex{
+  display: flex;
+
+}
+
+.max-width{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* color  */
+
+.text-lite{
+  color: rgb(137, 135, 161);
+}
+
+.text-orange{
+  color: #E95A08;
+}
+
+.text-dark{
+  color: rgb(17, 17, 17);
+}
+
+/* Header Style  */
+
+/* Navbar style  */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar ul{
+  justify-content: space-evenly;
+  gap: 48px;
+}
+.navbar li{
+  list-style: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-family: 'Inter';
+  font-size: 16px;
+}
