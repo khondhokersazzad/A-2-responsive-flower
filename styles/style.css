@@ -85,6 +85,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  padding-top: 15vh ;
   
 }
 
@@ -311,3 +312,47 @@ input[type='button']{
 }
 
 /* Footer style  */
+
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.logo-text{
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+
+.footer-nav{
+
+}
+
+.footer-nav ul li{
+  list-style: none;
+  padding: 10px 0;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  
+}
+
+
+
+.social ul {
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.social ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+
+
+
