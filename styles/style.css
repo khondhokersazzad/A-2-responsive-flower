@@ -94,12 +94,13 @@
   padding: 20px 0;
 }
 
-.heor-body-text{
+.hero-body-text{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.hero-img{
+.hero-img img{
   width: 100%;
+  
 }
 
 /* Plant Section Style  */
@@ -116,10 +117,12 @@
 
 .plant-body-text,.deal-text{
   font-size: 22px;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -355,4 +358,103 @@ input[type='button']{
 }
 
 
+/* Responsive style  */
 
+@media (max-width: 576px) {
+  body{
+    padding: 10px 0;
+  }
+  .mobile-hide {
+    display: none;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+
+  .hero-title{
+    font-size: 24px;
+  }
+
+  .hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+  .plant-title{
+    font-size: 24px;
+  }
+
+  .plant-body-text{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .plant-card-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .lover-section{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .lover-title{
+    font-size: 24px;
+  }
+
+  .lover-text ul li{
+    font-size: 14px;
+  }
+
+ .flower-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+  .trust-badge{
+    display: none;
+  }
+
+  .deal-title,.subscribe-title{
+    font-size: 24px;
+  }
+
+  .deal-text{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .plant-container{
+    grid-template-areas: "bloom"
+                       "ana"
+                       "zabo";
+  }
+
+  .bloom-plant,.ana-plant,.zabo-plant{
+    width: 100%;
+    height: 300px; 
+    margin-top:15px ;
+  }
+
+  .subscribe{
+    width: 300px;
+  }
+
+  input[type='email']{
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  }
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+  }
+}
