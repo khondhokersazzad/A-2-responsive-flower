@@ -54,6 +54,10 @@
   color: rgb(17, 17, 17);
 }
 
+.bg-off-white{
+  background-color: #F5F8FF;
+}
+
 /* Header Style  */
 
 /* Navbar style  */
@@ -198,12 +202,19 @@
 /* Plant Section  */
 .deal-section{
   padding-bottom: 50px;
+  margin: 0 auto;
 }
 .plant-container{
   display: grid;
   
   grid-template-areas: "bloom zabo zabo"
                        "ana   zabo zabo";
+
+  padding: 0;
+}
+
+.plant-right{
+  padding-right: 0 ;
 }
 .bloom-plant{
   
